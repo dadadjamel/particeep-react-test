@@ -1,0 +1,85 @@
+.movieCard{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 13px 0px #919191;
+    margin: 15px 20px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    align-items: center;
+    justify-content: start;
+    transition: all .2s ease-in-out;
+    width: 200px;
+}
+
+.movieCard:hover{
+    transform: scale(1.07);
+}
+
+.movieTitle h3{
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 10px 0;
+}
+
+.movieCat{
+    font-size: 14px;
+    font-family: sans-serif;
+    margin: 10px 0;
+    background-color: rgba(206, 255, 92, 0.272);
+    padding: 8px 15px;
+    border: none;
+    border-radius: 8px;
+}
+
+.movieButtonsLikeDislike{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 15px 0 15px;
+    width: 75%;
+}
+
+.movieButtons{
+    display: flex;
+    gap: 12px;  
+    justify-content: center;
+    align-items: center;  
+}
+
+
+
+.movieButtonDelete button{
+    border: none;
+    background-color: rgba(255, 5, 5, 0.619);
+    padding: 10px 25px;
+    cursor: pointer;
+    width: max-content;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.movieBar{
+    display: flex;
+    width: 75%;
+    padding: 0 10px 10px 10px;
+}
+
+
+.moviebarLike{
+    height: 3px;
+    background-color: green;
+}
+
+
+.moviebarDislike{
+    height: 3px;
+    background-color: red;
+}
+
+.statusDisliked{
+    color: red;
+}
+
+.statusLiked{
+    color: green;
+}

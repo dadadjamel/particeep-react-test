@@ -1,0 +1,29 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 20px;
+}
+
+.moviesCard{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.buttonPage{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginationButtons{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 16px;
+}
